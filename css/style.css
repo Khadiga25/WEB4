@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../image/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(250, 195, 233);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-content .Supplies {
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(56, 55, 55);
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav li a {
+    display: block;
+    color: rgb(53, 53, 53);
+    min-width: 80px;
+    padding: 5px;
+    margin: 0px 5px;
+}
+
+
+/*--------------------form------------------------------*/
+
+.section-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 45%;
+    text-align: center;
+    background-color: rgb(201, 222, 243);
+    padding: 30px;
+}
+
+.section-form h2 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: rgb(14, 13, 13);
+}
+
+.section-form form input {
+    display: block;
+    width: 100%;
+    margin: 5px 0px;
+    height: 40px;
+    border: 1px solid white;
+    padding: 5px;
+    font-family: monospace;
+    outline: none;
+}
+
+.section-form form input[type="submit"] {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section-form form input[type="submit"]:hover {
+    opacity: 0.5;
+}
+
+.shoping_cart {
+    display: flex;
+    margin-top: 5px;
+}
+
+.badge {
+    height: 20px;
+    display: block;
+    background-color: rgb(253, 155, 224);
+    top: 30px;
+    right: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.home {
+    background-color: rgb(250, 195, 233);
+    width: 100%;
+    height: 50px;
+}
+
+.home-orderlist {
+    list-style-type: none;
+    float: right;
+    margin-right: 20px;
+    font-weight: bold;
+    margin-top: -50px;
+}
+
+.link-item {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 23px;
+}
+
+.link-item:hover .link-menu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.link-item:hover .list-unstyled a {
+    border: 0px;
+}
+
+.link-item a {
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: none;
+    text-transform: lowercase;
+    color: rgb(39, 39, 39);
+    font-family: sans-serif;
+}
+
+.container {
+    position: absolute;
+    width: 80%;
+}
+
+.card {
+    margin-top: 50px;
+    position: relative;
+    margin-left: 150px;
+}
+
+.card-body-action {
+    text-align: left;
+}
